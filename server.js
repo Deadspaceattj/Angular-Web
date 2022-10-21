@@ -16,7 +16,7 @@ app.use( compression() );
 app.disable( "x-powered-by" );
 
 // directory that we will serve
-app.use( express.static( __dirname + "/dist/web-ui-template" ) );
+app.use( express.static( __dirname + "/dist/DunamiX" ) );
 
 // Not required for Cloudflare Flexible SSL configuration
 // https://support.cloudflare.com/hc/en-us/articles/115000219871-Troubleshooting-redirect-loop-errors-
@@ -41,7 +41,7 @@ app.get( "/*", function ( req, res ) {
     selectedLanguage = "fr";
   }
 
-  res.sendFile( path.join( __dirname + "/dist/web-ui-template/" + selectedLanguage + "/index.html" ) );
+  res.sendFile( path.join( __dirname + "/dist/dunamis-x/" + selectedLanguage + "/index.html" ) );
 } );
 
 // listen port
