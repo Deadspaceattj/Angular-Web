@@ -75,6 +75,7 @@
     "@angular/compiler-cli": "^14.0.1",
     "@angular/language-service": "^14.0.1",
     "@angular/localize": "^14.0.1",
+    "@azure/static-web-apps-cli": "^1.0.3",
     "@nrwl/nx-cloud": "15.0.0",
     "@nrwl/workspace": "15.0.1",
     "@types/jasmine": "^4.0.3",
